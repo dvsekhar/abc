@@ -1,0 +1,50 @@
+.cms-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .cms-textarea-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  .cms-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-height: 100px;
+  }
+
+  .buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cms-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .cms-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  } 
+  .cms-btn:hover {
+    opacity: 0.8;
+  }
+  
+  
